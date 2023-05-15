@@ -1,3 +1,12 @@
+libwebp (1.2.2-2ubuntu0.22.04.1) jammy-security; urgency=medium
+
+  * SECURITY UPDATE: crash and possible code execution via double free
+    - debian/patches/CVE-2023-1999.patch: clear result->bw on error in
+      src/enc/alpha_enc.c.
+    - CVE-2023-1999
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Mon, 15 May 2023 12:55:45 -0400
+
 libwebp (1.2.2-2) unstable; urgency=high
 
   * Fixes mipsel architecture correctly this time (closes: #1006009)

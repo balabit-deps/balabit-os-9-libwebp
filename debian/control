@@ -1,6 +1,7 @@
 Source: libwebp
 Priority: optional
-Maintainer: Jeff Breidenbach <jab@debian.org>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Jeff Breidenbach <jab@debian.org>
 Build-Depends: debhelper (>= 12), autotools-dev, libtool, autoconf, 
  automake, libjpeg-dev, libgif-dev, libpng-dev, 
  libtiff-dev | libtiff4-dev, freeglut3-dev
